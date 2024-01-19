@@ -154,7 +154,7 @@ col1, col2 = st.columns(2)
 with col1:
     if st.button("SEO 최적화 블로그 글 작성하기"):
         try:
-            file_path = "prompts/0_prompt.txt"
+            file_path = "../prompts/0_prompt.txt"
             prompt = read_prompt(file_path)
             response = generate_response(client, model_choice, prompt, user_input)
             result_containers[0].text_area("변환결과", response, height=600)
@@ -164,7 +164,7 @@ with col1:
 with col2:
     if st.button("문어체로 작성하기"):
         try:
-            file_path = "prompts/1_prompt.txt"
+            file_path = "../prompts/1_prompt.txt"
             prompt = read_prompt(file_path)
             response = generate_response(client, model_choice, prompt, user_input)
             result_containers[1].text_area("변환결과", response, height=600)
