@@ -159,7 +159,7 @@ with col1:
             response = generate_response(client, model_choice, prompt, user_input)
             result_containers[0].text_area("변환결과", response, height=600)
         except Exception as e:
-            st.error("오류가 발생했습니다. Prompt를 확인해주세요.",e)
+            st.error(f"오류가 발생했습니다: {e}")
             print(e)
 with col2:
     if st.button("문어체로 작성하기"):
@@ -169,7 +169,7 @@ with col2:
             response = generate_response(client, model_choice, prompt, user_input)
             result_containers[1].text_area("변환결과", response, height=600)
         except Exception as e:
-            st.error("오류가 발생했습니다. Prompt를 확인해주세요.",e)
+            st.error(f"오류가 발생했습니다: {e}")
 
 col1, col2 = st.columns(2)
 with col1:
