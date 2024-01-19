@@ -128,7 +128,12 @@ def crawl_url(url):
     return "URL이 입력되지 않았습니다."
 st.write("")
 
-st.header("ChatGPT 글쓰기 도우미")
+st.header("사용방법")
+st.write("1. 왼쪽 대시보드에 OpenAI key를 입력합니다")
+st.write("2. 원하는 모델을 선택합니다.")
+st.write("3. 작업할대상의 프롬프트를 입력을하고, 오른쪽 작업대상의 버튼을 누릅니다.")
+st.write("4. 화면 상단에 출력된 결과물을 확인합니다.")
+st.write("📌 크롤링 및 이미지 해석은 대시보드에 데이터를 알맞게 넣어주고 버튼을 누르면 됩니다.")
 
 st.write("")
 buttons = ["SEO 최적화 블로그 글 작성하기",
