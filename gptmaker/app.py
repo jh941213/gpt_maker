@@ -45,6 +45,8 @@ def create_dalle_image(client, prompt):
 
 st.title("📝 GPT_Maker")
 st.markdown('<p style="font-size: small;">Made by Simon</p>', unsafe_allow_html=True)
+st.write("기존 ChatGPT의 응답의 input token의 제한과 , GPT-4turbo 를 API 에서만 호출이 가능한 이점을 개선하고, 프롬프트를 최적화 및 반복 사용으로 효율성을 높이기 위해 제작)
+
 st.markdown('[WIZnet Tech Blog](https://wiz-tech.tistory.com/)')
 st.markdown('[WIZnet Maker Site](https://maker.wiznet.io/)')
 st.markdown('[WIZnet Chatbot Test](http://www.iamacorn.p-e.kr:8501/)')
@@ -125,8 +127,8 @@ def crawl_url(url):
     return "URL이 입력되지 않았습니다."
 st.write("")
 
-st.header("업무효율성 증대를 위한 글쓰기 도우미")
-st.write("기존 ChatGPT의 응답의 input token의 제한과 , GPT-4turbo 를 API 에서만 호출이 가능한 이점을 개선하고자 Tool 을 만들게 되었습니다")
+st.header("ChatGPT 글쓰기 도우미")
+
 st.write("")
 buttons = ["SEO 최적화 블로그 글 작성하기",
              "문어체로 작성하기",
