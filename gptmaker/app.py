@@ -45,7 +45,7 @@ def create_dalle_image(client, prompt):
 
 st.title("📝 GPT_Maker")
 st.markdown('<p style="font-size: small;">Made by Simon</p>', unsafe_allow_html=True)
-st.write("기존 ChatGPT의 응답의 input token의 제한과 , GPT-4turbo 를 API 에서만 호출이 가능한 이점을 개선하고, 프롬프트를 최적화 및 반복 사용으로 효율성을 높이기 위해 제작)
+st.write("기존 ChatGPT의 응답의 input token의 제한과 , GPT-4turbo 를 API 에서만 호출이 가능한 이점을 개선하고, 프롬프트를 최적화 및 반복 사용으로 효율성을 높이기 위해 제작")
 
 st.markdown('[WIZnet Tech Blog](https://wiz-tech.tistory.com/)')
 st.markdown('[WIZnet Maker Site](https://maker.wiznet.io/)')
