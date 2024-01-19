@@ -125,7 +125,8 @@ def crawl_url(url):
     return "URL이 입력되지 않았습니다."
 st.write("")
 
-st.header("WIZnet ChatGPT 글쓰기 도우미")
+st.header("업무효율성 증대를 위한 글쓰기 도우미")
+st.write("기존 ChatGPT의 응답의 input token의 제한과 , GPT-4turbo 를 API 에서만 호출이 가능한 이점을 개선하고자 Tool 을 만들게 되었습니다")
 st.write("")
 buttons = ["SEO 최적화 블로그 글 작성하기",
              "문어체로 작성하기",
